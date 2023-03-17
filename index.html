@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> My Portfolio Site</title>
+<link rel="stylesheet" href="Style.css">
+<script src="https://kit.fontawesome.com/4a433e792a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div id="header">
+<div class="container">
+<nav>
+<h1><span>J</span>unaid Sayyed.</h1>
+<ul id="sidemenu">
+<li><a href="#header">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#services">Servces</a></li>
+<li><a href="#portfolio">Portfolio</a></li>
+<li><a href="#contact">Contact</a></li>
+<i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+</ul>
+<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+</nav>
+<div class="header-text">
+<p>Web Developer</p>
+<h1>Hi, I'm <span>Junaid</span>  <br> From India.</h1>
+</div>
+</div>
+</div>
+
+<!-- About Section -->
+<div id="about">
+<div class="container">
+<div class="row">
+<div class="about-coi-1">
+<img src="J3.png" alt="image">
+</div> 
+<div class="about-coi-2">
+<h1 class="sub-title">About Me</h1>
+<p>
+  I am Sayyed Junaid Mainoddin. I have complited Bachelor's in Scence (Computer) from S.R.T.M. University Nanded . I have good knowledge on Intanet management, Apps development & maintenance of solution using SharePoint, PowerApps, Power Automate & Teams.
+I Developed Powerful app & created complex workflow using PowerApps & Power Automate and also good knowledge in HTML5, CSS3, JS. 
+.</p>
+<div class="tab-titles">
+<p class="tab-links active-link" onclick="opentab('skill')">Skills</p>
+<p class="tab-links" onclick="opentab('experience')">Experience</p>
+<p class="tab-links" onclick="opentab('education')">Education</p>
+</div>
+<div>
+<div class="tab-contents active-tab" id="skill">
+<ul>
+<li><span>Shrepoint Development</span> <br> Created Intranet Sites. </li>
+<li><span>PowerAPPS Development</span> <br> Developed & Design Apps.  </li>
+<li><span> Power Autmatate</span> <br> Created Automated Workflows. </li>
+<li><span> Web Development</span> <br>HTML5, CSS3 , JS, SQL.</li>
+</ul>
+</div>
+<div class="tab-contents" id="experience">
+<ul>
+<li><span>Shrepoint Development</span> <br> Creating Intranet Sites </li>
+<li><span>PowerAPPS Development</span> <br> Developed & Design Apps  </li>
+<li><span> Power Autmatate</span> <br> Creating AUtomated Workflows </li>
+</ul>
+</div>
+<div class="tab-contents" id="education">
+<ul>
+<li><span>BSc(Computer Science)</span> <br> L.B.S. College,Dharmabad </li>
+<li><span>HSC</span> <br> Pansare College,Arjapur  </li>
+<li><span> SSC</span> <br> Milind School </li>
+</ul>
+</div>
+
+</div>
+
+</div> 
+</div>
+</div>
+</div>
+<!-- ..........services... -->
+<div id="services">
+<div class="cntainer">
+<h1 class="sub-title">My Services</h1>
+<div class="services-list">
+<div>
+<img src="sharepoint.png" alt="Shrepoint">
+<h2>Sharepoint Online </h2>
+<p>
+<ul>
+<li> Established Microsoft Office-365 and SharePoint Online.</li> 
+<li> Created intranet solutin using SharePoint Online.</li>
+<li>Created Out of the box solutin in sharepoint. </li>
+</ul>
+</p>
+<a href="&"> Learn More</a>
+</div>
+<div>
+<img src="apps.png" alt="powerapps">
+<h2>Power Apps </h2>
+<p>
+<ul>
+<li> Development of Canvas Apps using SharePoint, CDS, Dynamic 365, SQL and more </li>
+<li>Development of Model-driven and Portal apps using Microsoft Dataverse </li>
+
+</ul>
+</p>
+<a href="&"> Learn More</a>
+</div>
+<div>
+<img src="automate.png" alt="automate">
+<h2>Power Automate </h2>
+<p>
+<ul>
+<li> Created Complex Workflows in Microsoft Flow. /li> 
+<li> Created Automated Cloud, Scheduled Cloud, Intant Cloud flows & Desktop flow .</li>
+
+</ul>
+</p>
+<a href="&"> Learn More</a>
+</div>
+</div>
+</div>
+</div>
+
+<!-- .......portfolio.........  -->
+<div id="portfolio">
+<div class="container">
+<h1 class="sub-title">My Work</h1>
+<div class="work-list">
+<div class="work">
+<img src="share1.png" alt="">
+<div class="layer">
+<h3>Intranet Sites</h3>
+<p><ul>
+<li> Creatiing Intranet Sites using SharePoint Onlite</li>
+<li>Creatiing Lists, Labraries, Pages, Web-parts, Calender, Events and more</li>
+</ul>
+</p>
+<a href="#"><i class="fa-solid fa-link"></i></a>
+</div>
+</div>
+<div class="work">
+<img src="app.png" alt="">
+<div class="layer">
+<h3 class="app">Employee Information App </h3>
+<p> I have created an App in PowerApps which is used to store Employees Information, Whare i used Canvas app because it is highly customizable.
+In Canvas app i created Login Form, Home Screen, Employee View Screen, Edit Screen & more </p>
+<a href="#"><i class="fa-solid fa-link"></i></a>
+</div>
+</div>
+<div class="work">
+<img src="A.png" alt="">
+<div class="layer">
+<h3>Employee Leave Request </h3>
+<p>I have created Leave Request in Power Automate. Adding an item to a Sharepoint list will send a request to your manager for approval and upon the request getting approved you will receive an email. </p>
+
+<a href="#"><i class="fa-solid fa-link"></i></a>
+</div>
+</div>
+</div>
+</div>
+<div>
+<a href="#" class="btn">See More</a>
+</div>
+</div>
+
+<!-- .............Contact.................  -->
+<div id="contact">
+<div class="container">
+<div class="row">
+<div class="contact-left">
+<h1  class="sub-title">Contact Me</h1>
+<p><i class="fa-sharp fa-regular fa-paper-plane"></i>zainsayyed4887@gmaail.com</p>
+<p> <i class="fa-sharp fa-solid fa-phone"></i>+91 8421273785</p>
+<div class="social-icons">
+<a href="#"><i class="fa-brands fa-facebook"></i></a>
+<a href="#"><i class="fa-brands fa-twitter"></i></a>
+<a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+<a href="#"><i class="fa-brands fa-linkedin"></i></a>
+</div>
+<a href="Junaid.pdf" download="Junaid.pdf" class="btn btn2">Download CV</a>
+</div>
+<div class="contact-right">
+<form name="submit-to-google-sheet">
+<input type="text" name="Name" placeholder="Your Name" required >
+<input type="email" name="Email" placeholder="Your Email" required>
+<textarea name="Message" id=""  rows="6" placeholder="Your Message"></textarea>
+<button type="submit" class="btn btn2">Submit </button>
+</form>
+<span id="msg"></span>
+</div>
+</div>
+</div>
+<div class="copyright">
+<p>copyright @ Junaid.<i class="fa-brands fa-gratipay"></i> Made by Sayyed Junaid..</p>
+</div>
+</div>
+
+
+
+
+<!-- ...script for about section -->
+<script src="Script.js"></script>
+
+
+</body>
+</html>
